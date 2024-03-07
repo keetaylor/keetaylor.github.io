@@ -12,7 +12,40 @@ input, button, textarea, select { font: inherit }
 body { background-color: lightblue; }
 
 /* ====== PADDING AROUND SECTION CONTENT ======  */
-section { padding: 4% 20% }
+/* Desktops */
+@media (min-width: 768px) {
+    section { padding: 4% 20% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    section { padding: 5% 5% }
+ }
+
+.section-1 {
+    background-color: lemonchiffon;
+}
+
+.section-2{
+    background-color: lightgreen;
+}
+
+.section-3{
+    background-color: lightblue;
+}
+
+.section-4 {
+    background-color: darkblue;
+}
+
+.section-4 h2,
+.section-4 p { color: white;
+}
+
+.section-5{
+    background-color: lightcoral;
+}
+
 
 h2 {
     font-size: 56px;
