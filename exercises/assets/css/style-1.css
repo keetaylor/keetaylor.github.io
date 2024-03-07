@@ -10,7 +10,8 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 
-/* comment */
+/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+body { padding: 4% 20% }
 
 h1 {
     font-size: 84px;
