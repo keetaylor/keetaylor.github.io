@@ -26,7 +26,7 @@ input, button, textarea, select { font: inherit }
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: lightgreen; 
+    background-color: darkcyan; 
 }
 
 h1 {
@@ -35,6 +35,7 @@ h1 {
     letter-spacing: -2px;
     margin-bottom: 12px;
     line-height: 1.2;
+    color:white;
 }
 
 h2 {
@@ -42,6 +43,7 @@ h2 {
     letter-spacing: 6px;
     margin-bottom: 48px;
     line-height: 1.2;
+    color:white;
 }
 
 h3 {
@@ -50,14 +52,16 @@ h3 {
     margin-bottom: 20px;
     line-height: 1.2;
     text-transform: uppercase;
+    color:white;
 }
 
 p {
     font-size: 20px;
     margin-bottom: 16px;
+    color:white;
 }
 
-a { color: darkgreen; }
+a { color: cyan; }
 
 img {
     margin-bottom:  16px;

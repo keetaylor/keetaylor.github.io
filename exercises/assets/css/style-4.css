@@ -11,31 +11,23 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+/* Fluid Typography*/
+:root {
+    --fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.34vi + 0.91rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 3.54vi + 2.17rem, 5rem);
+}
+
 /* Desktops */
 @media (min-width: 768px) { body { padding: 4% 20% } }
 
 /* Mobiles */
 @media (max-width: 767px) { body { padding: 12% 8% } }
 
-/*Google Font*/
-.merriweather-regular {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .merriweather-regular-italic {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
 
 
 /* Web page */
@@ -46,7 +38,7 @@ body {
 
 /* Main heading */
 h1 {
-    font-size: 84px;
+    font-size: var(--fs-xxxl);
     line-height: 1.1;
     font-weight: normal;
     color: #3434B0;
@@ -57,7 +49,7 @@ h1 {
 
 /* Small headings */
 h2 {
-    font-size: 24px;
+    font-size: var(--fs-md);
     color:#3434B0;
     line-height: 1.5;
     margin-bottom: 42px;
@@ -65,7 +57,7 @@ h2 {
 
 /* Smaller headings */
 h3 {
-    font-size: 42px;
+    font-size: var(--fs-lg);
     color: #000;
     letter-spacing:-1px;
     margin-top: 40px;
@@ -75,7 +67,7 @@ h3 {
 
 /* Text paragraphs */
 p {
-    font-size: 20px;
+    font-size: var(--fs-base);
     color: #455C80;
     line-height: 1.6;
     margin-top: 0;
