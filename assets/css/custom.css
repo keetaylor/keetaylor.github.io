@@ -1,0 +1,26 @@
+
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #121629}
+
+header.theme-dark   { background-color: #232946 }
+
+header.theme-dark  h1 { color:#b8c1ec; }
+
+section.theme-dark   { background-color: #d4d8f0;
+    background-color: #232946;
+ }
+
+footer.theme-dark   { background-color: #0f172a;
+background-color: #121629; }
+
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8; }
+
+h1 { font-family: 'Barlow Condensed';}
+
+h2 { font-family: 'Barlow Condensed';
+    color: #b8c1ec;}
+
+h3 { font-family: 'Montserrat';}
+
+p { font-family: 'Montserrat';}
