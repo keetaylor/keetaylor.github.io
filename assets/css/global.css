@@ -22,7 +22,6 @@ input, button, textarea, select { font: inherit }
     body { padding: 8% 5% }
  }
 
- 
 body {
     text-align: center;
     font-family: sans-serif;
@@ -61,9 +60,20 @@ p {
     color:white;
 }
 
-a { color: cyan; }
-
 img {
     margin-bottom:  16px;
     
+}
+
+h1 { font-family: 'Barlow Condensed';
+}
+
+h2 { font-family: 'Barlow Condensed';
+    color: #b8c1ec;
+}
+
+h3 { font-family: 'Montserrat';
+}
+
+p { font-family: 'Montserrat';
 }
